@@ -3,7 +3,7 @@ import axios from 'axios'
 import Orden from '@/components/Orden'
 import AdminLayout from '@/layout/AdminLayout'
 
-const admin = () => {
+const Completadas = () => {
     const fetcher = () => axios('/api/ordenes-completas').then(datos => datos.data)
     const { data, error, isLoading } = useSWR('/api/user', fetcher, { refreshInterval: 100})
   return (
