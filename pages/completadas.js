@@ -23,4 +23,4 @@ const Completadas = () => {
   )
 }
 
-export default admin
+export default Completadas
