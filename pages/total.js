@@ -13,7 +13,7 @@ export default function Total() {
 
     useEffect(() => {
       comprobarPedido()
-    }, [pedido])
+    }, [pedido, comprobarPedido])
 
     return (
         <Layout pagina={"Resumen"}>
